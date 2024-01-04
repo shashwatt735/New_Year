@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Kalnia:wght@500&display=swap");
+
+body {
+  height: 725px;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  font-size: 4em;
+  padding: 8px;
+  background-image: url(images/fireworks.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-year {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 500px;
+  background-image: url(images/fireworks3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-color: #ffffff; */
+  color: #011230;
+}
+.new-year p {
+  padding: 3px;
+  margin: 2px;
+}
+#year {
+  font-family: "Kalnia", sans-serif;
+  color: #fc7a57;
+}
