@@ -40,3 +40,13 @@ body {
   font-family: "Kalnia", sans-serif;
   color: #fc7a57;
 }
+@media screen and (max-width: 768px) {
+  .new-year {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 0.5em;
+  }
+}
