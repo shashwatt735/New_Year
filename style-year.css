@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   font-family: "Jost", sans-serif;
   font-size: 4em;
-  background: url(images/fireworks.jpg) no-repeat;
+  background: #011230 url(images/fireworks.jpg) no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -26,10 +26,8 @@ body {
   width: 500px;
   margin: 0 auto;
   border-radius: 500px;
-  background: url(images/fireworks3.png) no-repeat;
+  background: #f0f0f0 url(images/fireworks3.png) no-repeat;
   background-size: contain;
-  background-color: #011230;
-  /* opacity: 0.75; */
   color: #011230;
 }
 .new-year p {
@@ -41,6 +39,10 @@ body {
   color: #fc7a57;
 }
 @media screen and (max-width: 768px) {
+  body {
+    background: #011230 url(images/fireworks2.jpg) no-repeat;
+    background-size: cover;
+  }
   .new-year {
     height: 250px;
     width: 250px;
