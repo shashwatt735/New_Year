@@ -1,5 +1,11 @@
-#theshrewdscribbler.github.io
+#shashwatt735.github.io
 
-First Project
+First Project on web dev.
 
-New Year 2024
+Stack Used: HTML,CSS,JS
+
+It is meant to wish Happy New Year at midnight.
+
+<!--TODO: It uses a countdown timer and changes the year with a special celebration. -->
+
+Made with ❤️
